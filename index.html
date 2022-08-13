@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
 
-    <script src="./index.js"></script>
     <title>Zero Web</title>
   </head>
   <body>
@@ -78,13 +77,13 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="#videos"
                       ><i class="far fa-play-circle fa-fw"></i>
                       Top Videos
                     </a>
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="#stats"
                       ><i class="far fa-chart-bar fa-fw"></i>
                       Stats
                     </a>
@@ -679,7 +678,7 @@
               <span>80%</span>
             </div>
             <div class="progress">
-              <span style="width: 80%"></span>
+              <span data-width="80" style="width: 0"></span>
             </div>
           </div>
           <div class="holder">
@@ -688,7 +687,7 @@
               <span>85%</span>
             </div>
             <div class="progress">
-              <span style="width: 85%"></span>
+              <span data-width="85" style="width: 0"></span>
             </div>
           </div>
           <div class="holder">
@@ -697,7 +696,7 @@
               <span>70%</span>
             </div>
             <div class="progress">
-              <span style="width: 70%"></span>
+              <span data-width="70" style="width: 0"></span>
             </div>
           </div>
           <div class="holder">
@@ -706,7 +705,7 @@
               <span>80%</span>
             </div>
             <div class="progress">
-              <span style="width: 80%"></span>
+              <span data-width="80" style="width: 0"></span>
             </div>
           </div>
         </div>
@@ -900,5 +899,119 @@
       </div>
     </div>
     <!-- End Videos -->
+    <!-- Stats -->
+    <div class="stats" id="stats">
+      <h1>Our Awesome Stats</h1>
+      <div class="container">
+        <div class="box">
+          <i class="far fa-user fa-2x fa-fw"></i>
+          <span data-number="150">0</span>
+          <p>Clients</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-code fa-2x fa-fw"></i>
+          <span data-number="135">0</span>
+          <p>Projects</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+          <span data-number="50">0</span>
+          <p>Countries</p>
+        </div>
+        <div class="box">
+          <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+          <span data-number="500">0</span>
+          <p>Money</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Stats -->
+    <!-- Discount -->
+    <div class="discount" id="discount">
+      <div class="content">
+        <h1>We Have A Discount</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          asperiores consectetur, recusandae ratione provident necessitatibus,
+          cumque delectus commodi fuga praesentium beatae. Totam vel similique
+          laborum dicta aperiam odit doloribus corporis.
+        </p>
+        <img src="./imgs/discount.png" alt="" />
+      </div>
+      <form action="#">
+        <h1>Request A Discount</h1>
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <input type="number" name="number" placeholder="Your Number" />
+        <textarea
+          name="needs"
+          cols="30"
+          rows="10"
+          placeholder="Tell Us About Your Needs"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+    <!-- End Discount -->
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="social">
+          <h1>Elzero</h1>
+          <div class="media">
+            <div class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="twitter">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="youtube">
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+            nulla rem, dignissimos iste aspernatur
+          </p>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <div class="location">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <p>Lebanon, Tripoli, Inside The Sphinx, Room Number 220</p>
+          </div>
+          <div class="time">
+            <i class="far fa-clock fa-fw"></i>
+            <p>Business Hours: From 10:00 To 18:00</p>
+          </div>
+          <div class="number">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div>
+              <p>+961 78932887</p>
+              <p>+961 76701375</p>
+            </div>
+          </div>
+        </div>
+        <div class="images">
+          <img src="./imgs/gallery-01.png" alt="" />
+          <img src="./imgs/gallery-02.png" alt="" />
+          <img src="./imgs/gallery-03.jpg" alt="" />
+          <img src="./imgs/gallery-04.png" alt="" />
+          <img src="./imgs/gallery-05.jpg" alt="" />
+          <img src="./imgs/gallery-06.png" alt="" />
+        </div>
+      </div>
+      <div class="copyright">Made With Huzaifa Kabakibo</div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./index.js"></script>
   </body>
 </html>
